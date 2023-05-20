@@ -1,0 +1,157 @@
+body{
+    font-family: "Montserrat";
+}
+#title{
+    background-image: linear-gradient(to bottom right, orange, rgb(56, 240, 10)) ;
+}
+.container-fluid{
+    padding-left: 10%;
+    padding-right: 15%;
+    
+}
+h1{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 2rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat";
+}
+p{
+    color: grey;
+}
+/*navigation bar*/
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 200%;
+    font-weight: bold;
+    margin-right: 20%;
+
+}
+.btn{
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+    margin-bottom: 10%;
+
+}
+.nav-item{
+    padding: 0 4px;
+}
+.nav-link{
+    font-family: "Montserrat-light";
+    font-size: 1.2rem;
+}
+.sriim{
+    width: 110%;
+}
+#features{
+    padding: 7% 15%;
+}
+.fea{
+    
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: blueviolet;
+    margin-bottom: 5%;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/*testimonial*/
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, orange, rgb(56, 240, 10)) ;
+    color: white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.teimg{
+    width: 20%;
+    
+    margin: 20px;
+}
+#press{
+    background-color: aqua;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.img-src{
+    width: 15%;
+    margin: 25px;
+    margin-bottom: 50px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.prco{
+    padding: 3% 2%;
+}
+.button{
+    color: black;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    position: relative;
+    bottom: 90%;
+    font-size: 16px;
+    text-decoration: none;
+}
+.button1{
+    background-color: orange;
+}
+.button1:hover {
+    background-color: #af844c;
+    color: white;
+  }
+#cta{
+    background-color: rgb(194, 212, 31);
+    color: rgb(14, 13, 13);
+    padding: 10%;
+    text-align: center;
+}
+.ctah{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+}
+.btn1{
+    margin-top: 3rem;
+    margin-right: 1.5rem;
+    margin-bottom: 8%;
+}
+.imgp{
+    width: 150px;
+    height: 70px;
+}
+#footer{
+    padding: 10%;
+    text-align: center;
+}
+.ic{
+    margin: 20px;
+}
+.mine{
+    padding: 2%;
+}
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+    }
+}
